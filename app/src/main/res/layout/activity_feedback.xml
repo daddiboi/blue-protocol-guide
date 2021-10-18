@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Feedback">
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape"
+        app:srcCompat="@drawable/abc_vector_test"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="287dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Send feedback"
+android:textColor="#000000"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center_vertical|center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+
+    <EditText
+        android:id="@+id/act_main_et_email_address"
+        android:layout_width="355dp"
+        android:layout_height="53dp"
+
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+android:background="#19000000"
+        android:textColor="@color/black"
+        android:padding="10dp"
+
+        android:inputType="textPersonName"
+        android:text="infinitysenseiofficial@gmail.com"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="TextFields"
+        android:autofillHints="anything" />
+
+    <EditText
+        android:id="@+id/act_main_et_email_subject"
+        android:layout_width="357dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textColorHint="@color/black"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="enter a subject"
+        android:background="#19000000"
+
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/act_main_et_email_body"
+        android:layout_width="348dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+        android:hint="type in your message"
+        android:textColor="@color/black"
+        android:background="#19000000"
+
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744"
+        android:autofillHints=""
+        tools:ignore="TextFields" />
+
+
+
+    <Button
+        android:id="@+id/act_main_bt_send_email_button"
+        android:layout_width="354dp"
+        android:layout_height="50dp"
+android:textColor="#FFF"
+        android:textColorHint="@color/black"
+        android:text="send mail(open with Gmail)"
+android:backgroundTint="#000000"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
